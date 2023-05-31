@@ -13,3 +13,4 @@ class Receta(models.Model):
     def __str__(self):
         return self.nombre
 
+#Prueba de GIT
