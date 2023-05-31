@@ -1,0 +1,8 @@
+{% block content %}
+  <h2>Crear nueva receta</h2>
+  <form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Actualizar receta</button>
+  </form>
+{% endblock %}
